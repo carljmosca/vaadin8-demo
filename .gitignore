@@ -1,0 +1,15 @@
+target/
+*.class
+*.jar
+*.json
+*.zip
+*.tar
+*.gz
+*.txt
+nb-configuration.xml
+nbactions.xml
+*cache.js
+*.manifest
+/.project
+/.settings/
+/nbproject/
