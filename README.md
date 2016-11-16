@@ -4,7 +4,6 @@ vaadin8-demo
 A demo application for Vaadin 8, which is currently in the alpha stage.  Wanting
 to experiment with the newer binding features, I put together this small demo.
 
-
 Workflow
 ========
 

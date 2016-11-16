@@ -8,7 +8,6 @@ package com.github.carljmosca.processor;
 import com.github.carljmosca.data.Person;
 import java.util.ArrayList;
 import java.util.List;
-import javax.annotation.PostConstruct;
 
 /**
  *
