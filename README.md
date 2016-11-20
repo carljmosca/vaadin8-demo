@@ -16,3 +16,18 @@ To produce a deployable production mode WAR:
 - change productionMode to true in the servlet class configuration (nested in the UI class)
 - run "mvn clean package"
 - test the war file with "mvn jetty:run-war"
+
+Docker
+======
+
+
+
+OpenShift
+=========
+
+
+MiniShift
+=========
+
+To get the URL of the running demo
+- minishift -n vaadin8-demo service vaadin8-demo --url
