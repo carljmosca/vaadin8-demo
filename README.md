@@ -25,6 +25,9 @@ Docker
 OpenShift
 =========
 
+- oc edit scc restricted
+- Change runAsUser.Type to RunAsAny
+- Ensure allowPrivilegedContainer is set to false
 
 MiniShift
 =========
