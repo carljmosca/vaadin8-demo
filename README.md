@@ -18,15 +18,22 @@ To produce a deployable production mode WAR:
 
 Docker
 ======
-
+The Docker image can be built via maven
+- mvn package docker:build
+To create and run a container from the newly built image
+- docker run -d -p 8090:8080 --name vaadin8-demo carljmosca/vaadin8-demo
 
 
 OpenShift
 =========
 
+Allow containers to run as any user and prevent privileged containers:
 - oc edit scc restricted
 - Change runAsUser.Type to RunAsAny
 - Ensure allowPrivilegedContainer is set to false
+Create a project and application
+- oc new-project vaadin8-demo
+- oc new-app -f vaadin8-demo-template.json 
 
 Minishift
 =========
