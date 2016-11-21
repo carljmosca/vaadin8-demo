@@ -32,7 +32,7 @@ Allow containers to run as any user and prevent privileged containers:
 - Change runAsUser.Type to RunAsAny
 - Ensure allowPrivilegedContainer is set to false
 
-Create a project and application
+Create a project and application (from the src/main/openshift directory)
 - oc new-project vaadin8-demo
 - oc new-app -f vaadin8-demo-template.json 
 
