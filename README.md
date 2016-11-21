@@ -28,8 +28,11 @@ OpenShift
 - Change runAsUser.Type to RunAsAny
 - Ensure allowPrivilegedContainer is set to false
 
-MiniShift
+Minishift
 =========
+
+[Minishift](https://github.com/minishift/minishift) is an excellent tool which provides
+a nice way to run OpenShift locally.  The above notes for 
 
 To get the URL of the running demo
 - minishift -n vaadin8-demo service vaadin8-demo --url
